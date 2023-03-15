@@ -6,4 +6,4 @@ services:
       - "9324:9324"
       - "9325:9325"
     volumes:
-      - './opt/elasticmq.conf:/opt/elasticmq.conf'
+      - '/opt/elasticmq.conf:/opt/elasticmq.conf'
